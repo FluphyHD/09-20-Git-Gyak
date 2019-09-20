@@ -12,7 +12,7 @@ namespace OraiMunka
         {
             Feladatok f = new Feladatok();
 
-            f.feladat();
+            f.init();
 
 
             Console.WriteLine("Kérem nyomjon meg egy gombot a kilépéshe4z!");
