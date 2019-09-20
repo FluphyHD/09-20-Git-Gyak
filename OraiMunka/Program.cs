@@ -10,6 +10,13 @@ namespace OraiMunka
     {
         static void Main(string[] args)
         {
+            Feladatok f = new Feladatok();
+
+            f.feladat();
+
+
+            Console.WriteLine("Kérem nyomjon meg egy gombot a kilépéshe4z!");
+            Console.ReadKey();
         }
     }
 }
