@@ -15,7 +15,7 @@ namespace OraiMunka
             f.init();
 
 
-            Console.WriteLine("Kérem nyomjon meg egy gombot a kilépéshe4z!");
+            Console.WriteLine("\n\nKérem nyomjon meg egy gombot a kilépéshe4z!");
             Console.ReadKey();
         }
     }

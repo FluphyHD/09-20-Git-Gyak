@@ -18,6 +18,7 @@ namespace OraiMunka
             tombBeker();
             szamokBeker();
             maxKeres();
+            minKeres();
 
         }
 
@@ -84,8 +85,22 @@ namespace OraiMunka
             Console.WriteLine("A legnagyobb szám: " + max);
         }
 
+        public void minKeres()
+        {
+            int min = 0;
+            for (int i = 1; i < N; i++)
+            {
+                if (tomb[min]>tomb[i])
+                {
+                    min = i;
+                }
+            }
+            Console.WriteLine("A legkissebb szám: {0}", tomb[min]);
+        }
+
         public void kiir()
         {
+            Console.Write("A tömb elemei: ");
             for (int i = 0; i < N-1; i++)
             {
                 Console.Write(tomb[i] + ", ");
